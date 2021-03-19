@@ -18,3 +18,14 @@ OPENPOSE CHAINER MODEL
 	MPI: http://posefs1.perception.cs.cmu.edu/OpenPose/models/pose/mpi/pose_iter_160000.caffemodel
 	Face: http://posefs1.perception.cs.cmu.edu/OpenPose/models/face/pose_iter_116000.caffemodel
 	Hand: http://posefs1.perception.cs.cmu.edu/OpenPose/models/hand/pose_iter_102000.caffemodel
+<<<<<<< HEAD
+
+openpose.exe
+	Windows - Portable Demo
+	bin\OpenPoseDemo.exe 
+	bin\OpenPoseDemo.exe --video examples\media\video.avi
+	bin\OpenPoseDemo.exe --video examples\media\video.avi --face --hand --write_json output_json_folder/
+	Ref:
+	https://github.com/CMU-Perceptual-Computing-Lab/openpose
+=======
+>>>>>>> parent of 6b31579 (openpose_exe)
