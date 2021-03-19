@@ -32,5 +32,7 @@ openpose.exe
 	https://github.com/CMU-Perceptual-Computing-Lab/openpose
 	google drive
 	- https://drive.google.com/drive/folders/1u_YVo8IRB-k4upLsJugrAcsk8_dSkpfH?usp=sharing
+	Result
+	- https://drive.google.com/file/d/1hN_evT5V2iVzJHsRsDt71MwLjiPTu_mN/view?usp=sharing
 =======
 >>>>>>> parent of 6b31579 (openpose_exe)
