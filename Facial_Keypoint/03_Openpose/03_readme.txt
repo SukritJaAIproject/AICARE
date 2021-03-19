@@ -8,3 +8,13 @@ OPENPOSE STATE OF THE ART
 
 cv2.dnn.readNetFromCaffe
 
+OPENPOSE CHAINER MODEL 
+	- Test on Google colab
+	- 2Dpos (4 FPS)
+	- 2Dpose+Face (1 FPS)
+	Model Weight
+	BODY25: http://posefs1.perception.cs.cmu.edu/OpenPose/models/pose/body_25/pose_iter_584000.caffemodel
+	COCO: http://posefs1.perception.cs.cmu.edu/OpenPose/models/pose/coco/pose_iter_440000.caffemodel
+	MPI: http://posefs1.perception.cs.cmu.edu/OpenPose/models/pose/mpi/pose_iter_160000.caffemodel
+	Face: http://posefs1.perception.cs.cmu.edu/OpenPose/models/face/pose_iter_116000.caffemodel
+	Hand: http://posefs1.perception.cs.cmu.edu/OpenPose/models/hand/pose_iter_102000.caffemodel
