@@ -3,7 +3,7 @@
 *	คนไข้
 *	C:\Users\EGAT\Desktop\rec_vdo\6
 *	python server.py
-
+*	
 *	นักจิต
 *	C:\Users\sukri\Desktop\record_vdo\6
 *	python client.py
