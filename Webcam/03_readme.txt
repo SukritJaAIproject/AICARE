@@ -1,1 +1,0 @@
-บันทึก vdo จาก webcam เก็ยไว้ใน dir "vdo"
