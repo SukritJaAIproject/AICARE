@@ -1,0 +1,22 @@
+---
+# configuration file for training data
+# features have to be in numerical formatt
+# path to file without $Home/$User/
+data_file_config:
+  path_to_trainig_data: /training_data/training_data_gesture.csv
+  best_estimator_search_report: /training_result/best_estimator_search_report.txt 
+  classification_report: /training_result/classification_report.txt
+  persist_models_dir: /training_result/
+  header: ['image', 'waving_right_hand', 'waving_left_hand', 'pointing_right_hand', 'pointing_left_hand', 'stop']
+  feature_number: 120
+
+
+model_tuning_parameters:
+  svm: [{'kernel': ['rbf'], 'gamma': [0.01], 'C': [10]}, {'kernel': ['linear'], 'C': [1]}]
+  svm: [{'kernel': ['rbf'], 'gamma': [0.01], 'C': [10]}]
+  random_forest: {'max_depth': [2,5,10,50,100], 'max_features': ['auto', 'sqrt', 'log2'], 'n_estimators': [1, 10, 100], "min_samples_leaf": [1, 5, 10, 20],
+              "max_leaf_nodes": [5, 10, 20]}
+
+  decision_tree: {'criterion':['gini', 'entropy'], 'max_depth': [2,5,10,50,100], 'max_features': ['auto', 'sqrt', 'log2'], 'class_weight': ['balanced'], "min_samples_leaf": [1, 5, 10, 100],
+             "max_leaf_nodes": [5, 10, 20, 50], 'random_state':[0, 1, 2]}
+  adaboost: {'base_estimator__max_depth':[1,20,50], 'base_estimator_max_features':[2, 10, 20], 'base_estimator_name': 'DecisionTreeClassifier'}
