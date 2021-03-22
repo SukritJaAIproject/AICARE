@@ -11,4 +11,4 @@
 
 
 ##	Google drive link for openpose windows system
-*	https://drive.google.com/drive/folders/1rOfgu3nNBJg4QaJJmdn2TIv6G962hmLC?usp=sharing
+	https://drive.google.com/drive/folders/1rOfgu3nNBJg4QaJJmdn2TIv6G962hmLC?usp=sharing
