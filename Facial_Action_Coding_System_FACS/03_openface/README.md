@@ -1,1 +1,1 @@
-[Ex.](http://jinhyuncheong.com/jekyll/update/2020/01/22/How_to_extract_facial_expressions_head_pose_and_gaze.html)
+Ref : http://jinhyuncheong.com/jekyll/update/2020/01/22/How_to_extract_facial_expressions_head_pose_and_gaze.html
