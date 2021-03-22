@@ -1,2 +1,2 @@
 #	การวิเคราะห์ระดับการเปิดปิดของดวงตา
-*	##liveVideoFrameRead.py
+*	##	liveVideoFrameRead.py
