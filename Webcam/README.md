@@ -3,3 +3,4 @@
 	capture.open(1 + cv2.CAP_DSHOW)  # เปลี่ยน 0 หรือ 1
 	
 ##	02_webcam_capture.py
+	เหมือน 01_webcam_capture.py
