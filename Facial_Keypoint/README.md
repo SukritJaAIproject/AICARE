@@ -4,6 +4,7 @@
 	สกัด Facial landmark โดยใช้ XceptionNetResNet18
 ##	03_Openpose
 	สกัด Facial landmark โดยใช้ Openpose
+	ซึ่งถูกแปลงไว้ในหลาย library ได้แก่ Tensorflow2, Chainer_model, original openpose, readNetFromCaffe
 ##	04_Conv2D
 	สกัด Facial landmark โดยใช้ Conv2D
 ##	05_stasm
