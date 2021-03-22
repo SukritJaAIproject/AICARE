@@ -5,8 +5,8 @@
 *	##	02_FER
 		FER.ipynb, 02_prior_probability.ipynb : วิเคราะห์ AU 
 *	##	03_openface
-*		Openface_win (เเป็นตัว .exe application รันใน windows ได้เลย)
-*		OpenFace_Shared_original.ipynb (เเป็น code ที่ยังไม่ได้ clean)
+		Openface_win (เเป็นตัว .exe application รันใน windows ได้เลย)
+		OpenFace_Shared_original.ipynb (เเป็น code ที่ยังไม่ได้ clean)
 
 		
 
