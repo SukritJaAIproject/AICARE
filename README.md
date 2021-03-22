@@ -15,6 +15,7 @@
 *	##	05 Upper_Body_Movement 
 		ใน folder นี้จะเป็นการวิเคราะห์การเคลื่อนไหวของร่างกายส่วนบน เช่น มีการขยับของศีรษะลดลง, มีการแสดงออกผ่านทางมือลดลง เป็นต้น
 *	##	06 Tele_system
-		ใน folder นี้จะเป็นการทำสอบระบบ Tele system ประกอบไปด้วยหลายๆ library ได้แก่ SmoothStream, Socket_OpenCv, Streamlit, และ Flask
+		ใน folder นี้จะเป็นการทำสอบระบบ Tele system ประกอบไปด้วยหลายๆ library ได้แก่ 
+		SmoothStream, Socket_OpenCv, Streamlit, และ Flask
 *	##	07 Webcam
 		ใน folder นี้จะเป็นการบันทึกข้อมูลด้วยกล้อง webcam และ sound recorder
