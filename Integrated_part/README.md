@@ -27,3 +27,4 @@
 		เป็น code ที่ใช้ในการ deploy สำหรับ input ที่เป็น landmark
 
 ##	03_Facial_recognition_fastai.ipynb
+	fastai ใช้ fastai library
