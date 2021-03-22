@@ -1,4 +1,5 @@
 ##	01_SmoothStream
+	วิธีการใช้งาน รัน StreamViewer_rev1.py ที่ฝั่งนักจิต และ Streamer_rev1.py ที่ฝั่งของคนไข้
 ##	02_SmoothStream_simple
 ##	03_Socket_OpenCv_webcam_video_transmit_receive_wifi
 ##	04_Socket_multiple_clients_OpenCV
