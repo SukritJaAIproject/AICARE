@@ -3,10 +3,11 @@
 ##	03_Chainer_model.ipynb
 	เป็น Openpose ที่แปลงมาเป็น Chainer_model
 ##	03_openpose.ipynb
+	เป็น Openpose ที่แปลงลงมาใช้ใน google colab
 ##	03_openpose_readNetFromCaffe.ipynb
+	เป็น .ipynb มีทั้ง openpose และ readNetFromCaffe
 ##	03_readNetFromCaffe.ipynb
-
-
+	เป็น Openpose ที่แปลงมาเป็น readNetFromCaffe
 
 
 ##	Google drive link for openpose windows system
