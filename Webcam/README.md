@@ -19,3 +19,7 @@
 ##	07_recorded_audio_vdo.py
 	Record 200 frames, mp4 video with audio, single thread
 	Ref : https://www.tutorialfor.com/blog-280672.htm
+	
+	
+##	Ref
+	https://medium.com/@gkadusumilli/introductory-tutorial-on-video-processing-f8963f2a29c3
