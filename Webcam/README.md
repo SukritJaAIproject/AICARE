@@ -1,4 +1,2 @@
-*	01_ไพล์นี้เป็นการ capture รูปภาพจากกล้อง webcam
-*	02_ไพล์นี้เป็นการ capture รูปภาพจากกล้อง webcam
-*	03_บันทึก vdo จาก webcam เก็ยไว้ใน dir "vdo"
-
+##	01_webcam_capture.py
+	ใช้กับกล้อง logitech ได้เลย , สร้าง floder "img" เพื่อเก็บรูปที่ capture ได้
