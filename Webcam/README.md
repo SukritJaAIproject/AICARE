@@ -7,3 +7,7 @@
 	
 ##	03_webcam_video.py 
 	สร้าง floder "vdo" เพื่อเก็บ vdo
+	
+##	04_sound_recording.py 
+	conda install -c anaconda pyaudio
+	
