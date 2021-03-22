@@ -4,7 +4,7 @@
 		ใน folder นี้จะเป็นการสกัด Facial landmark ด้วยโมเดลต่างๆ เช่น dlib, XceptionNetResNet18,
 		Openpose, Conv2D, stasm, keras_Con2D, และ mediapipe
 			โดยในส่วนของ openpose ก็จะถูกแปลงไปอยู่ในหลายๆ library เช่น 
-			Tensorflow2, Chainer_model, original openpose,และ readNetFromCaffe
+		Tensorflow2, Chainer_model, original openpose,และ readNetFromCaffe
 *	##	02 Facial_Action_Coding_System_FACS
 		ใน folder นี้จะเป็นการสกัด Action Unit (AU) ด้วยโมเดลต่างๆ เช่น openface, Action_Units_Heatmaps, และ FER
 *	##	03 Integrated_part
