@@ -16,3 +16,5 @@
 ##	06_sound_recording_sounddevice.py
 	sounddevice 
 	
+##	07_recorded_audio_vdo.py
+	Record 200 frames, mp4 video with audio, single thread
