@@ -4,3 +4,6 @@
 	
 ##	02_webcam_capture.py
 	เหมือน 01_webcam_capture.py
+	
+##	03_webcam_video.py 
+	สร้าง floder "vdo" เพื่อเก็บ vdo
