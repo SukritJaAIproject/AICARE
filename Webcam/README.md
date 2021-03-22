@@ -11,3 +11,8 @@
 ##	04_sound_recording.py 
 	conda install -c anaconda pyaudio
 	
+##	05_sound_recording_pyaudio.py 
+
+##	06_sound_recording_sounddevice.py
+	sounddevice 
+	
