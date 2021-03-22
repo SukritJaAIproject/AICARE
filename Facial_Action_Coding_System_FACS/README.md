@@ -3,7 +3,9 @@
 *	##	01_Action_Units_Heatmaps
 		Action_Units_Heatmap : เป็นการแสดง heatmap ของ AU
 *	##	02_FER
+		FER.ipynb, 02_prior_probability.ipynb : วิเคราะห์ AU 
 *	##	03_openface
+		
 
 
 ##	Cohn Kanade Dataset
