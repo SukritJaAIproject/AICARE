@@ -20,6 +20,11 @@
 	Record 200 frames, mp4 video with audio, single thread
 	Ref : https://www.tutorialfor.com/blog-280672.htm
 	
+##	08_Record and save USB camera video
+	run python Video_main.py
+	
+##  09_AVrecordeR
+	09_AVrecordeR.py
 	
 ##	Ref
 	https://medium.com/@gkadusumilli/introductory-tutorial-on-video-processing-f8963f2a29c3
