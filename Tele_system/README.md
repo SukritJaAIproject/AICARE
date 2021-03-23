@@ -31,7 +31,7 @@
 	- 06_edumucelli
 		server.py
 	
-	- 07_FaceRecognitionFlask
+	- 07_FaceRecognitionFlask_work
 		form_data.py
 	
 	- 08_Flask
