@@ -26,5 +26,8 @@
 ##  09_AVrecordeR
 	09_AVrecordeR.py
 	
+##	10_screen_capture_pyautogui
+	run python screen_capture_pyautogui.py
+	
 ##	Ref
 	https://medium.com/@gkadusumilli/introductory-tutorial-on-video-processing-f8963f2a29c3
