@@ -30,3 +30,9 @@ while True
 # make sure everything is closed when exited
 cv2.destroyAllWindows()
 out.release()
+
+# img = pyautogui.screenshot(region=(0, 0, 300, 400))
+# for i in range(200):
+#     # make a screenshot
+#     img = pyautogui.screenshot()
+#     # the rest of the code...
