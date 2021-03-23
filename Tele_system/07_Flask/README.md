@@ -1,6 +1,7 @@
 ##	07_Flask
 	- 01_web_camera_recorder
 		server.py
+		http://192.168.1.34:5000/
 		
 	- 02_videoStream
 		videoStreamPython.py, videoStreamClient.py
