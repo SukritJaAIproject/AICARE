@@ -11,8 +11,9 @@
 ##	06_Streamlit
 	canny_filter.py
 ##	07_Flask
-	- 01_web_camera_recorder
+	- 01_web_camera_recorder ( บันทึก image โดยการกด)
 		server.py
+		one shot image
 		
 	- 02_videoStream
 		videoStreamPython.py, videoStreamClient.py
