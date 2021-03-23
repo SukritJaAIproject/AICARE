@@ -11,7 +11,7 @@
 ##	06_Streamlit
 	canny_filter.py
 ##	07_Flask
-	- 01_web_camera_recorder ( บันทึก image โดยการกด)
+	- 01_web_camera_recorder ( บันทึก vdo โดยการกด)
 		server.py
 		one shot image
 		
@@ -26,8 +26,8 @@
 	
 	- 05_flask_video_stream
 		python server.py
-		it's work
-		record
+		one shot image
+		record image
 		
 	- 06_edumucelli
 		server.py
