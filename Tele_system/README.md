@@ -25,6 +25,8 @@
 	
 	- 05_flask_video_stream
 		python server.py
+		it's work
+		record
 		
 	- 06_edumucelli
 		server.py
