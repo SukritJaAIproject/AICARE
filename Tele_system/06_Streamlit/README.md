@@ -1,0 +1,1 @@
+streamlit run canny_filter.py
