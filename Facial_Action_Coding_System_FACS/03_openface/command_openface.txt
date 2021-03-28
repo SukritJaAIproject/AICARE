@@ -20,4 +20,4 @@ matlab
 
 FeatureExtraction.exe -device 1 -out_dir C:\Users\sukri\Desktop\openface_result 
 
-C:\Users\sukri\Desktop\OpenFace_2.2.0_win_x64\FeatureExtraction.exe -fdir "C:\Users\sukri\Desktop\input -out_dir C:\Users\sukri\Desktop\openface_result -of reco -vis-aus -aus 
+C:\Users\sukri\Desktop\OpenFace_2.2.0_win_x64\FeatureExtraction.exe -fdir "C:\Users\sukri\Desktop\input" -out_dir C:\Users\sukri\Desktop\openface_result -of reco -vis-aus -aus
