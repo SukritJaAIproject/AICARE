@@ -4,7 +4,7 @@ FeatureExtraction.exe -device 0 -out_dir C:\Users\sukri\Desktop\openface_result
 FeatureExtraction.exe -device 0 -out_dir C:\Users\sukri\Desktop\openface_result -of re1
 FeatureExtraction.exe -device 0 -out_dir C:\Users\sukri\Desktop\openface_result -of re1 -verbose
 FeatureExtraction.exe -device 0 -out_dir C:\Users\sukri\Desktop\openface_result -of re1 -vis-aus
-FeatureExtraction.exe -device 0 -out_dir C:\Users\sukri\Desktop\openface_result -of reco -vis-aus -aus -aus
+FeatureExtraction.exe -device 0 -out_dir C:\Users\sukri\Desktop\openface_result -of reco -vis-aus -aus
 
 FaceLandmarkImg.exe -f "C:\Users\sukri\Desktop\input\A001.jpg" -out_dir C:\Users\sukri\Desktop\openface_result -of reco -aus 
 FaceLandmarkImg.exe -f "C:\Users\sukri\Desktop\input\A001.jpg" -out_dir C:\Users\sukri\Desktop\openface_result -of reco -vis-aus -aus -aus
