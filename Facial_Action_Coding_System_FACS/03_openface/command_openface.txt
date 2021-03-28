@@ -6,8 +6,8 @@ FeatureExtraction.exe -device 0 -out_dir C:\Users\sukri\Desktop\openface_result 
 FeatureExtraction.exe -device 0 -out_dir C:\Users\sukri\Desktop\openface_result -of re1 -vis-aus
 FeatureExtraction.exe -device 0 -out_dir C:\Users\sukri\Desktop\openface_result -of reco -vis-aus -aus
 
-FaceLandmarkImg.exe -f "C:\Users\sukri\Desktop\input\A001.jpg" -out_dir C:\Users\sukri\Desktop\openface_result -of reco -aus 
-FaceLandmarkImg.exe -f "C:\Users\sukri\Desktop\input\A001.jpg" -out_dir C:\Users\sukri\Desktop\openface_result -of reco -vis-aus -aus -aus
+FaceLandmarkImg.exe -f "C:\Users\sukri\Desktop\input\001.jpg" -out_dir C:\Users\sukri\Desktop\openface_result -of reco -aus 
+FaceLandmarkImg.exe -f "C:\Users\sukri\Desktop\input\001.jpg" -out_dir C:\Users\sukri\Desktop\openface_result -of reco -vis-aus -aus 
 FaceLandmarkImg.exe -f "C:\Users\sukri\Desktop\input\001.jpg" -out_dir C:\Users\sukri\Desktop\openface_result -verbose
 FaceLandmarkImg.exe -f "C:\Users\sukri\Desktop\input\002.jpg" -out_dir C:\Users\sukri\Desktop\openface_result -of re1 -verbose
 FaceLandmarkImg.exe -f "C:\Users\sukri\Desktop\input\001.jpg" -out_dir C:\Users\sukri\Desktop\openface_result -of re1 -vis-aus -aus
@@ -19,3 +19,5 @@ matlab
 "../../FeatureExtraction.exe" -f "../../samples/default.wmv" -out_dir "./processed_features/" -verbose
 
 FeatureExtraction.exe -device 1 -out_dir C:\Users\sukri\Desktop\openface_result 
+
+C:\Users\sukri\Desktop\OpenFace_2.2.0_win_x64\FeatureExtraction.exe -fdir "C:\Users\sukri\Desktop\input -out_dir C:\Users\sukri\Desktop\openface_result -of reco -vis-aus -aus 
