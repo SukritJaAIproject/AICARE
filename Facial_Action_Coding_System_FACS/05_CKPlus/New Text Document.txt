@@ -1,0 +1,3 @@
+python create_dataset.py C:\Users\sukri\Desktop\CK_dataset\CK+\ C:\Users\sukri\Desktop\CK_dataset\CK+\Emotion\ C:\Users\sukri\Desktop\CK_dataset\CK+\cohn-kanade-images\ C:\Users\sukri\Desktop\CK_dataset\CK+\emotion_images\ True 0 9 3 112 112
+
+python train.py C:\Users\sukri\Desktop\CK_dataset\CK+\emotion_images\  43 .1 .3 16 10
