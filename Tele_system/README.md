@@ -37,3 +37,6 @@
 	
 	- 08_Flask
 		internet, wifiLAN
+		
+		
+https://datatofish.com/command-prompt-python/
