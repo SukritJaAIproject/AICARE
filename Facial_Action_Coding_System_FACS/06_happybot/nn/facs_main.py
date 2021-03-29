@@ -29,6 +29,7 @@ import numpy as np
 import os
 import facs_helper
 import facs_preparation
+from tqdm import tqdm
 
 #%% INITIALIZE VARIABLES
 ###################################################################
@@ -42,11 +43,11 @@ facsTop = [1.,2.,4.,5.,6.,7.]
 facsBtm = np.array([9., 10., 12., 15., 17., 20., 23.,24., 25., 26., 27.])
 # get rid of facs 24, 26, 23, 10
 
-predictor_path = '/Users/joshualamstein/Desktop/pyFiles/shape_predictor_68_face_landmarks.dat'
-faces_folder_path = '/Users/joshualamstein/Desktop/CK+/cohn-kanade-images/**/*/'
+predictor_path = 'shape_predictor_68_face_landmarks.dat'
+faces_folder_path = 'C:/Users/sukri/Desktop/CK_dataset/CK+/cohn-kanade-images/**/*/'
 #landmark_path = '/Users/joshualamstein/Desktop/CK+/Landmarks/S022/003/S022_003_00000005_landmarks.txt'
-facs_folder = '/Users/joshualamstein/Desktop/CK+/FACS/**/*/'
-emotion_folder = '/Users/joshualamstein/Desktop/CK+/Emotion/'
+facs_folder = 'C:/Users/sukri/Desktop/CK_dataset/CK+/FACS/**/*/'
+emotion_folder = 'C:/Users/sukri/Desktop/CK_dataset/CK+/Emotion/'
 
 # Boolean to select whether you want to train for top FACS, bottom FACS, or facs from Kotsia's paper. 
 paperBool = False
@@ -192,8 +193,8 @@ n_output = numFacs
 #%% Feed forward MLP NN
 ###################################################################
 
-LOGDIR = "/tmp/FACS/zappa/upper/51/"
-savepath = "/Users/joshualamstein/Desktop/pyFiles/save_tf_upper_zappa_11/"
+LOGDIR = "/51/"
+savepath = "/save_tf_upper_zappa_11/"
 
 
 # Function for fully connected layer
@@ -424,7 +425,7 @@ def facs_model(learning_rate, scale_class_weight,use_two_fc, use_three_fc, use_f
     writer.add_graph(sess.graph)
 
 
-    for i in range(3001):
+    for i in tqdm(range(3001)):
         if i % 5 == 0:
             [train_accuracy, s] = sess.run([accuracy, summ], feed_dict={x: train_x, y: train_y, sw:sw_train})
             sess.run([confusion],feed_dict={x: test_x, y: test_y, sw: sw_test})
@@ -450,7 +451,7 @@ def make_hparam_string(learning_rate, scale_class_weight,use_two_fc, use_three_f
 
 def main():
   # Testing learning rates
-    for learning_rate in [1E-2, 1E-3, 1E-4]:
+    for learning_rate in tqdm([1E-2, 1E-3, 1E-4]):
         for scale_class_weight in [1]:
 
     # Include "False" as a value to try different model architectures
