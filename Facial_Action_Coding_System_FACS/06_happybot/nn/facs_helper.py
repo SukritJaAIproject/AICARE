@@ -8,6 +8,7 @@ __name__= 'facs_helper'
 import numpy as np
 import os
 import glob
+from tqdm import tqdm
 
 class facialActions:
     def __init__(self,brow_r, brow_ell, eye_ell, eye_r,lip_tu,lip_bu,lip_tl,lip_bl, nose_line,nose_arc, furrow, wrinkle_ell, wrinkle_r, brow_ri, brow_li, brow_ro, brow_lo):
@@ -157,24 +158,36 @@ class facsFolder:
     
     def process(self):
 
-        for f in glob.glob(os.path.join(self.facs_folder, "*.txt")):
+        for f in tqdm(glob.glob(os.path.join(self.facs_folder, "*.txt"))):
             print("Processing file: {}".format(f))
             self.facsPath.append(f)
             with open(f) as d:
                 facsFrame = np.zeros(len(self.facsList))
+                print('facsFrame',facsFrame)
+                print('facsFrame',facsFrame.shape)
                 intenFrame = np.zeros(len(self.facsList))
+                print('intenFrame',facsFrame)
+                print('intenFrame',facsFrame.shape)
                 facsTopFrame = np.zeros(len(self.facsTop))
+                print('facsTopFrame',facsTopFrame)
+                print('facsTopFrame',facsTopFrame.shape)
                 facsBtmFrame = np.zeros(len(self.facsBtm))
+                print('facsBtmFrame',facsBtmFrame)
+                print('facsBtmFrame',facsBtmFrame.shape)
                 
-                for i in d:
+                for i in tqdm(d):
                     i = i.strip()
+                    print(i)
+                    print(float(i[0:13]))
                     # Sorting AUs 
                     if int(float(i[0:13])) < 8: # 8 refers to AUs for the top half of the faces
+                        print('self.facsTop', self.facsTop)
                         facsTopIdx = self.facsTop.index(int(float(i[0:13])))
                         facsTopFrame[facsTopIdx] = 1
-
+                           
                     if np.sum( np.array(self.facsBtm) == int( float( i[0:13] ) ) ): # Sorting based on Tian's paper
-                        facsBtmIdx = self.facsBtm.index(int(float(i[0:13])))
+                        print('self.facsBtm', self.facsBtm)
+                        facsBtmIdx = self.facsBtm.tolist().index(int(float(i[0:13])))
                         facsBtmFrame[facsBtmIdx] = 1
     
                     facsIdx = self.facsList.index(int(float(i[0:13])))
@@ -240,7 +253,7 @@ class emoFolder:
         self.emotions = []
         print("test")
         iter = 0
-        for g in glob.glob(os.path.join(self.facs_dir)):
+        for g in tqdm(glob.glob(os.path.join(self.facs_dir))):
             iter+=1
             print(iter)
             print(g)
@@ -274,7 +287,7 @@ class compare:
     def match(self):
         self.flagSet = np.zeros(len(self.emotions))
         self.emoMatch = np.ones(len(self.emotions))*-2
-        for i in range(0,len(self.emotions)):
+        for i in tqdm(range(0,len(self.emotions))):
             if self.emotions[i] != -1:
                 T = np.array(self.facsT[i])
                 B = np.array(self.facsB[i])
