@@ -512,8 +512,6 @@ classau = model.predict(X_test[0][np.newaxis,:,:,:,:])
 
 classau
 
-
-
 from sklearn import preprocessing
 le = preprocessing.LabelEncoder()
 le.fit(["01_neutral", "02_anger", "03_contempt", "04_disgust", "05_fear", "06_happy", "07_sadness", "08_surprise"])
@@ -522,3 +520,14 @@ print(le_name_mapping)
 
 list(le.inverse_transform([np.argmax(classau)]))[0]
 
+from keras.models import model_from_json
+# load json and create model
+json_file = open('/content/model.json', 'r')
+loaded_model_json = json_file.read()
+json_file.close()
+loaded_model = model_from_json(loaded_model_json)
+# load weights into new model
+loaded_model.load_weights("/content/weigths.h5")
+print("Loaded model from disk")
+
+loaded_model.predict(X_test[0][np.newaxis,:,:,:,:])
