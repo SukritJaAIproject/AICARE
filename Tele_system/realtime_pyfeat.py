@@ -31,14 +31,21 @@ fontScale = 1
 fontColor = (255,255,255)
 lineType = 2
 
+
 while(True):
 
+    df = pd.read_csv("au_output.csv")
     ret, frame = cap.read()
     new_frame_time = time.time()
 
     cv2.imwrite(r'C:\Users\sukri\Desktop\input\img\001.png', frame)
     test_image = r"C:\Users\sukri\Desktop\input\img\001.png"
+
+    # detector.detect_image(test_image, outputFname="output.csv")
     image_prediction = detector.detect_image(test_image)
+
+    df = df.append(image_prediction.aus())
+    df.to_csv('au_output.csv', index=False)
 
     # print(image_prediction)
     # print(image_prediction.aus())
