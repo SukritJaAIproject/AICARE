@@ -1,3 +1,5 @@
+cd C:\Users\sukri\Desktop\OpenFace_2.2.0_win_x64
+
 FeatureExtraction.exe -f "C:\Users\sukri\Desktop\OpenFace_2.2.0_win_x64\recording\2021-03-04-18-01.avi"
 FeatureExtraction.exe -device 0 -verbose
 FeatureExtraction.exe -device 0 -out_dir C:\Users\sukri\Desktop\openface_result 
@@ -6,6 +8,7 @@ FeatureExtraction.exe -device 0 -out_dir C:\Users\sukri\Desktop\openface_result 
 FeatureExtraction.exe -device 0 -out_dir C:\Users\sukri\Desktop\openface_result -of re1 -vis-aus
 FeatureExtraction.exe -device 0 -out_dir C:\Users\sukri\Desktop\openface_result -of reco -vis-aus -aus
 
+FaceLandmarkImg.exe -f "C:\Users\sukri\Desktop\input\001.jpg" -out_dir C:\Users\sukri\Desktop\openface_result -of reco 
 FaceLandmarkImg.exe -f "C:\Users\sukri\Desktop\input\001.jpg" -out_dir C:\Users\sukri\Desktop\openface_result -of reco -aus 
 FaceLandmarkImg.exe -f "C:\Users\sukri\Desktop\input\001.jpg" -out_dir C:\Users\sukri\Desktop\openface_result -of reco -vis-aus -aus 
 FaceLandmarkImg.exe -f "C:\Users\sukri\Desktop\input\001.jpg" -out_dir C:\Users\sukri\Desktop\openface_result -verbose
