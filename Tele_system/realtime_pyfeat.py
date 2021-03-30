@@ -39,8 +39,9 @@ while(True):
     cv2.imwrite(r'C:\Users\sukri\Desktop\input\img\001.png', frame)
     test_image = r"C:\Users\sukri\Desktop\input\img\001.png"
     image_prediction = detector.detect_image(test_image)
-    print(image_prediction)
-    print(image_prediction.aus())
+
+    # print(image_prediction)
+    # print(image_prediction.aus())
 
     # au plot
     # ax = image_prediction.aus().T.plot(kind="barh")
@@ -63,7 +64,7 @@ while(True):
     prev_frame_time = new_frame_time
     fps = round(fps,2)
     fps = str(fps)
-    print(fps)
+    print('FPS =', fps)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
