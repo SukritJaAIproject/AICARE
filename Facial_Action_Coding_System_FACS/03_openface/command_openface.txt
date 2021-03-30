@@ -30,3 +30,5 @@ C:\Users\sukri\Desktop\OpenFace_2.2.0_win_x64\FeatureExtraction.exe -fdir "C:\Us
 C:\Users\sukri\Desktop\OpenFace_2.2.0_win_x64\FeatureExtraction.exe -f "C:\Users\sukri\Desktop\input\vdo\default.avi" -out_dir C:\Users\sukri\Desktop\openface_result -of reco -vis-aus -aus
 
 FeatureExtraction.exe -f "C:\Users\sukri\Desktop\OpenFace_2.2.0_win_x64\samples\2015-10-15-15-14.avi" -out_dir C:\Users\sukri\Desktop\openface_result -aus
+
+C:\Users\sukri\Desktop\AICARES\AICARE\Facial_Action_Coding_System_FACS\03_openface

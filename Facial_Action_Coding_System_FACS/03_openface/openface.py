@@ -19,9 +19,14 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 fontScale = 1
 fontColor = (255,255,255)
 lineType = 2
+df_au = pd.read_csv('reco_au.csv')
 
 # i = 1
 while(True):
+
+    # print('all() =', detections.head())
+    # print('landmark() = ', detections.landmark().head())
+    # print('aus() =', detections.aus().head())
 
     ret, frame = cap.read()
     print(frame.shape)
@@ -57,18 +62,12 @@ while(True):
     cv2.imshow('frame',frame)
     # cv2.imshow("img", img1)
 
-    #vdo
-    # os.system(r'cmd /c "C:\Users\sukri\Desktop\OpenFace_2.2.0_win_x64\FeatureExtraction.exe -device 1 -out_dir C:\Users\sukri\Desktop\openface_result -of reco -aus"')
-    os.system(r'cmd /c "C:\Users\sukri\Desktop\OpenFace_2.2.0_win_x64\FaceLandmarkImg.exe -f "C:\Users\sukri\Desktop\input\img\001.jpg" -out_dir C:\Users\sukri\Desktop\openface_result -of reco -aus"')
-    # os.system(r'cmd /c "C:\Users\sukri\Desktop\OpenFace_2.2.0_win_x64\FaceLandmarkImg.exe -f "C:\Users\sukri\Desktop\input\img\001.jpg" -out_dir C:\Users\sukri\Desktop\openface_result -of reco -aus"')
-    # os.system(r'cmd /c "C:\Users\sukri\Desktop\OpenFace_2.2.0_win_x64\FeatureExtraction.exe -f "C:\Users\sukri\PycharmProjects\testssss\vdo\default.avi" -out_dir C:\Users\sukri\Desktop\openface_result -of reco -aus"')
-    # os.system(r'cmd /c "C:\Users\sukri\Desktop\OpenFace_2.2.0_win_x64\FeatureExtraction.exe -f "C:\Users\sukri\PycharmProjects\testssss\vdo\default.avi" "')
-
-    openface_file = r'C:\Users\sukri\Desktop\openface_result\reco.csv'
+    os.system(r'cmd /c "C:\Users\sukri\Desktop\OpenFace_2.2.0_win_x64\FaceLandmarkImg.exe -f "C:\Users\sukri\Desktop\input\img\001.jpg" -of reco"')
+    openface_file = r'C:\Users\sukri\Desktop\AICARES\AICARE\Facial_Action_Coding_System_FACS\03_openface\processed\reco.csv'
     detections = read_openface(openface_file)
-    print(type(detections))
-    print('head() =', detections.head())
-    print('landmark().head() = ', detections.landmark().head())
+    df_au = df_au.append(detections.aus())
+    df_au.to_csv('reco_au.csv', index=False)
+    print(df_au.shape)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
@@ -77,3 +76,15 @@ while(True):
 
 cap.release()
 cv2.destroyAllWindows()
+
+
+
+
+
+
+
+# vdo
+# os.system(r'cmd /c "C:\Users\sukri\Desktop\OpenFace_2.2.0_win_x64\FeatureExtraction.exe -device 1 -out_dir C:\Users\sukri\Desktop\openface_result -of reco -aus"')
+# os.system(r'cmd /c "C:\Users\sukri\Desktop\OpenFace_2.2.0_win_x64\FaceLandmarkImg.exe -f "C:\Users\sukri\Desktop\input\img\001.jpg" -out_dir C:\Users\sukri\Desktop\openface_result -of reco -aus"')
+# os.system(r'cmd /c "C:\Users\sukri\Desktop\OpenFace_2.2.0_win_x64\FeatureExtraction.exe -f "C:\Users\sukri\PycharmProjects\testssss\vdo\default.avi" -out_dir C:\Users\sukri\Desktop\openface_result -of reco -aus"')
+# os.system(r'cmd /c "C:\Users\sukri\Desktop\OpenFace_2.2.0_win_x64\FeatureExtraction.exe -f "C:\Users\sukri\PycharmProjects\testssss\vdo\default.avi" "')
