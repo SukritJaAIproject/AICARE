@@ -6,10 +6,11 @@ import os
 from import_csv import *
 from datetime import datetime
 
-# cap = cv2.VideoCapture('http://192.168.1.39:56000/mjpeg')
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture('http://192.168.1.39:56000/mjpeg')
+# cap = cv2.VideoCapture(0)
 
-# record vdo
+
+################### record vdo #####################################
 # path = 'vdo'
 # path = r'C:\Users\sukri\Desktop\input\vdo'
 # filename = str(datetime.now().strftime("%Y_%m_%d_%H_%M_%S")) + ".avi"
