@@ -4,13 +4,15 @@ from datetime import datetime
 import os
 
 path = 'vdo'
-filename = str(datetime.now().strftime("%Y_%m_%d_%H_%M_%S")) + ".avi"
+# filename = str(datetime.now().strftime("%Y_%m_%d_%H_%M_%S")) + ".avi"
+filename ="defaultvdo.avi"
 
 # local webcam
 # cap = cv2.VideoCapture(0)
 
 # local logitech
 cap = cv2.VideoCapture(1 + cv2.CAP_DSHOW)
+
 
 # Define the codec and create VideoWriter object
 # fourcc = cv2.VideoWriter_fourcc(*'XVID')

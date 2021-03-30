@@ -40,10 +40,20 @@ while(True):
     test_image = r"C:\Users\sukri\Desktop\input\img\001.png"
     image_prediction = detector.detect_image(test_image)
     print(image_prediction)
+    print(image_prediction.aus())
 
+    # au plot
+    # ax = image_prediction.aus().T.plot(kind="barh")
+    # ax.invert_yaxis()
+    # ax.get_legend().remove()
+    # ax.set(xlim=[0, 1.1], title="Action Units")
+    # plt.savefig('fooss.png')
+    # img = cv2.imread('fooss.png')
+    # cv2.imshow('image', img)
+
+    # allplot function
     image_prediction.plot_detections()
     # pics = image_prediction.plot_detections(draw_landmarks=False, draw_facelines=False, muscle=False)
-    # pics = image_prediction.plot_detections(draw_landmarks=True, draw_facelines=True, muscle=True)
 
     img = cv2.imread('fooss.png')
     cv2.imshow('image', img)
