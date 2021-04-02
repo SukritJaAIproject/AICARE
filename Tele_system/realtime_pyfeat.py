@@ -23,14 +23,13 @@ au_model = "rf"
 emotion_model = "resmasknet"
 detector = Detector(face_model = face_model, landmark_model = landmark_model, au_model = au_model, emotion_model = emotion_model)
 
-cap = cv2.VideoCapture('http://192.168.1.39:56000/mjpeg')
-# cap = cv2.VideoCapture(0)
+# cap = cv2.VideoCapture('http://192.168.1.39:56000/mjpeg')
+cap = cv2.VideoCapture(0)
 
 font = cv2.FONT_HERSHEY_SIMPLEX
 fontScale = 1
 fontColor = (255,255,255)
 lineType = 2
-
 
 while(True):
 
