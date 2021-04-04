@@ -13,3 +13,4 @@
 ##	Google drive link for openpose windows system
 	https://drive.google.com/drive/folders/1rOfgu3nNBJg4QaJJmdn2TIv6G962hmLC?usp=sharing
 	https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_01_demo.html
+	https://nw.tsuda.ac.jp/lec/openpose/run-win/
