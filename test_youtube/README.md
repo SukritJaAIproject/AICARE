@@ -12,6 +12,7 @@ https://drive.google.com/drive/folders/1AXeP5LK5HHNaOw7_XJhXduW1frhTX27z?usp=sha
 
 ### ref.
 https://github.com/maelfabien/Multimodal-Emotion-Recognition
+https://github.com/MahmoudSabra1/Facial-emotion-recognition
 
 
 
