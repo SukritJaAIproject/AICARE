@@ -14,6 +14,6 @@ https://drive.google.com/drive/folders/1AXeP5LK5HHNaOw7_XJhXduW1frhTX27z?usp=sha
 1. https://github.com/maelfabien/Multimodal-Emotion-Recognition
 2. https://github.com/MahmoudSabra1/Facial-emotion-recognition
 3. https://github.com/EvelynFan/AWESOME-FER#datasets
-
+4. https://github.com/omarsayed7/Deep-Emotion
 
 
