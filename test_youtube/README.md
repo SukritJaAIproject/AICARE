@@ -17,4 +17,6 @@ https://drive.google.com/drive/folders/1AXeP5LK5HHNaOw7_XJhXduW1frhTX27z?usp=sha
 4. https://github.com/omarsayed7/Deep-Emotion
 5. https://github.com/pablovin/AffectiveMemoryFramework
 6. https://github.com/pablolluchr/emotion-detection-app
+7. https://github.com/cosanlab/py-feat/tree/master/notebooks
+8. https://github.com/cosanlab/py-feat
 
