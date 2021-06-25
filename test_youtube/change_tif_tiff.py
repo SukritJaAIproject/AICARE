@@ -12,5 +12,4 @@ test = os.listdir(folder_path)
 for images in tqdm(test):
     if images.endswith(".tiff"):
         os.remove(os.path.join(folder_path, images))
-        
-        
+       
