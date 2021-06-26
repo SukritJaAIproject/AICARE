@@ -1,4 +1,4 @@
-no,Time,done,start,end,start_frame,end_frame,pred,resmasknet
+no,Time,done,start,end,start_frame,end_frame,pred,resmasknet_5skip
 0,0.10-0.55,neutral,0.1,0.55,599,3296,1,5
 1,0.56-1.08,ผ่อนคลาย,0.56,1.08,3356,4075,1,5
 2,1.09-1.24,neutral,1.09,1.24,4135,5034,1,5
