@@ -1,4 +1,4 @@
-Time,done,start,end,start_frame,end_frame,pred,pred2_noskip,rasnetmark
+Time,done,start,end,start_frame,end_frame,pred,pred2_noskip,rasnetmark_noskip
 0.40-0.42,ผ่อนคลาย,0.4,0.42,1000,1050,1,1,12
 0.43-0.44,มีความสุข,0.43,0.44,1075,1100,1,1,12
 0.45-0.46,มีความสุข,0.45,0.46,1125,1150,1,1,3
