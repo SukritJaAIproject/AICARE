@@ -93,9 +93,11 @@ i = 91 seq_label = [1]
 i = 92 seq_label = [2]
 i = 93 seq_label = [2]
 i = 94 seq_label = [2]
-
-
-
+i = 95 seq_label = [2]
+i = 96 seq_label = [2]
+i = 97 seq_label = [2]
+i = 98 seq_label = [2]
+i = 99 seq_label = [1]
 i = 100 seq_label = [2]
 i = 101 seq_label = [2]
 i = 102 seq_label = [2]
@@ -148,54 +150,3 @@ i = 148 seq_label = [2]
 i = 149 seq_label = [2]
 i = 150 seq_label = [2]
 i = 151 seq_label = [1]
-
-
-
-
-
-
-
-
-
-
-i = 50 seq_label = [0]
-i = 51 seq_label = [0]
-i = 52 seq_label = [2]
-i = 53 seq_label = [1]
-i = 54 seq_label = [2]
-i = 55 seq_label = [1]
-i = 56 seq_label = [2]
-i = 57 seq_label = [1]
-i = 58 seq_label = [1]
-i = 59 seq_label = [2]
-i = 60 seq_label = [2]
-i = 61 seq_label = [2]
-i = 62 seq_label = [2]
-i = 63 seq_label = [2]
-i = 64 seq_label = [1]
-i = 65 seq_label = [2]
-i = 66 seq_label = [2]
-i = 67 seq_label = [1]
-i = 68 seq_label = [2]
-i = 69 seq_label = [1]
-i = 70 seq_label = [2]
-i = 71 seq_label = [2]
-i = 72 seq_label = [2]
-i = 73 seq_label = [2]
-i = 74 seq_label = [2]
-i = 75 seq_label = [2]
-i = 76 seq_label = [2]
-i = 77 seq_label = [2]
-i = 78 seq_label = [0]
-i = 79 seq_label = [2]
-i = 80 seq_label = [2]
-i = 81 seq_label = [0]
-i = 82 seq_label = [1]
-i = 83 seq_label = [0]
-i = 84 seq_label = [0]
-i = 85 seq_label = []
-i = 86 seq_label = [2]
-i = 87 seq_label = [0]
-i = 88 seq_label = [2]
-
-
