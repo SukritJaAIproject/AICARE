@@ -9,7 +9,7 @@ def detect_image(self, frame, outputFname=None, verbose=False):
         print(f"processing {inputF}")
     # frame = cv2.imread(inputF)
     df = self.process_frame(frame)
-    df["input"] = inputF
+    df["input"] = 'inputF'
     if outputFname:
         df[init_df.columns].to_csv(
             outputFname, index=False, header=False, mode="a"
