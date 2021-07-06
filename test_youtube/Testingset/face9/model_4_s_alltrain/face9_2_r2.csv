@@ -1,21 +1,22 @@
-i = 0 seq_label = [0]
-i = 1 seq_label = [0]
-i = 2 seq_label = [0]
-i = 3 seq_label = [0]
-i = 4 seq_label = [1]
-i = 5 seq_label = [1]
-i = 6 seq_label = [0]
-i = 7 seq_label = [1]
-i = 8 seq_label = [1]
-i = 9 seq_label = [1]
-i = 10 seq_label = [1]
-i = 11 seq_label = [1]
-i = 12 seq_label = [1]
-i = 13 seq_label = [1]
-i = 14 seq_label = [0]
-i = 15 seq_label = [0]
-
-i = 17 seq_label = [1]
-i = 18 seq_label = [1]
-i = 19 seq_label = [1]
-i = 20 seq_label = [1]
+﻿no,done,label
+0,ผ่อนคลาย,0
+1,ผ่อนคลาย,0
+2,neutral,0
+3,เครียด,0
+4,ผ่อนคลาย,1
+5,มีความสุข,1
+6,ผ่อนคลาย,0
+7,มีความสุข,1
+8,มีความสุข,1
+9,ผ่อนคลาย,1
+10,มีความสุข,1
+11,ผ่อนคลาย,1
+12,มีความสุข,1
+13,ผ่อนคลาย,1
+14,neutral,0
+15,เครียด,0
+16,neutral,0
+17,ผ่อนคลาย,1
+18,neutral,1
+19,ผ่อนคลาย,1
+20,มีความสุข,1
